@@ -25,9 +25,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
 
-        $this->app->bind('path.public', function () {
-            return realpath(base_path().'/../cabinet');
-        });
+//        $this->app->bind('path.public', function () {
+//            return realpath(base_path().'/../cabinet');
+//        });
 
         Builder::defaultStringLength(191);
     }
