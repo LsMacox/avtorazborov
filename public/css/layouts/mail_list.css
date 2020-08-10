@@ -1,0 +1,248 @@
+.table-mail_list th{
+    font-size: 14px;
+    font-family: 'ProximaNovaRegular';
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table-mail_list td{
+    vertical-align: top;
+    padding-top: 4px;
+}
+
+.table-mail_list td:nth-child(2) .shop_info {
+    margin-bottom: 10px;
+}
+
+.table-mail_list td.regions {
+    padding-left: 20px;
+}
+
+.table-mail_list td.regions .region {
+    transition: 0.6s ease;
+}
+
+.table-mail_list td.spares .spare {
+    transition: 0.6s ease;
+}
+
+.table-mail_list td.regions a {
+    font-family: 'ProximaNovaRegular';
+    font-size: 14px;
+    color: #000;
+    margin-left: 3px;
+}
+
+.table-mail_list td.spares {
+    padding-left: 24px;
+}
+
+.table-mail_list td.spares a {
+    font-family: 'ProximaNovaRegular';
+    font-size: 14px;
+    color: #000;
+    line-height: 2;
+}
+
+.table-mail_list td.spares a i {
+   padding-left: 5px;
+}
+
+.table-mail_list td.transports {
+    padding-top: 1px;
+}
+
+.table-mail_list td.transports {
+    font-family: 'Times New Roman';
+    color: #000;
+}
+
+
+.table-mail_list td.transports th {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.table-mail_list td.transports tr > td.marka {
+    font-weight: bold;
+}
+
+.table-mail_list td.transports table {
+    min-width: 385px;
+}
+
+.table-mail_list td.transports tr > td.model {
+    padding-right: 10px;
+}
+
+
+.table-mail_list td.transports tr > td.year a {
+    margin-left: 7px;
+}
+
+.table-mail_list td.transports tr > td.year i {
+    color: #000;
+}
+
+.table-mail_list td.transports tr > td {
+    padding-bottom: 5px;
+}
+
+
+.table-mail_list td:nth-child(2) .shop_info p{
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: 'ProximaNovaRegular';
+    color: #000;
+}
+
+.table-mail_list td:nth-child(2) .shop_info p:nth-child(1){
+    font-weight: bold;
+}
+
+.table-mail_list td:nth-child(2) .state {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+
+
+
+
+
+.table-mail_list td:nth-child(2) .state input[type="radio"] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+}
+.table-mail_list td:nth-child(2) .state input[type="radio"] + label {
+    position: relative;
+    padding: 0 0 0 35px;
+    cursor: pointer;
+}
+.table-mail_list td:nth-child(2) .state input[type="radio"] + label:before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+    left: 0;
+    top: 3px;
+}
+.table-mail_list td:nth-child(2) .state input[type="radio"] + label:after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    transition: .2s;
+    height: 13px;
+    width: 20px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    transform: rotate(-45deg);
+    left: 2px;
+    top: 0;
+}
+.table-mail_list td:nth-child(2) .state input[type="radio"]:checked + label:after {
+    opacity: 1;
+}
+
+.table-mail_list td:nth-child(2) .state input[type="checkbox"] {
+    opacity: 0;
+}
+
+.table-mail_list td:nth-child(2) .state label {
+    position: relative;
+    display: inline-block;
+    padding-left: 22px;
+    color: #000;
+    font-family: 'ProximaNovaRegular';
+    font-size: 14px;
+    padding-left: 34px;
+    padding-top: 2px;
+}
+
+.table-mail_list td:nth-child(2) .state:not(:nth-child(4)) label {
+    cursor: pointer;
+}
+
+.table-mail_list td:nth-child(2) .state label::before,
+.table-mail_list td:nth-child(2) .state label::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+}
+
+.table-mail_list td:nth-child(2) .state label::before {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+    left: 0;
+    top: 3px;
+}
+
+.table-mail_list td:nth-child(2) .state label::after {
+    height: 13px;
+    width: 20px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    transform: rotate(-45deg);
+    left: 2px;
+    top: 0;
+}
+
+.table-mail_list td:nth-child(2) .state input[type="checkbox"] + label::after {
+    content: none;
+}
+
+.table-mail_list td:nth-child(2) .state input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+.table-mail_list td.transports tbody {
+    border: none!important;
+}
+
+.table-mail_list td.transports thead th {
+    border: none!important;
+    border-color: transparent!important;
+    background-color: transparent;!important
+}
+
+ul.pagination {
+    max-width: 1154px;
+}
+
+.add_alert {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    box-shadow: 1px 0 4px rgba(0, 0, 0, 0.5);
+    background: #f6bf00;
+    height: 28px;
+    width: 140px;
+    opacity: 0.4;
+    transition: 0.3s ease;
+    float: right;
+    margin-right: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.add_alert:hover {
+    opacity: 1;
+}
+
+.add_alert a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    padding-left: 12px;
+}
+
+.table-responsive {
+    max-width: 1174px;
+}

@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'Exo 2.0';
+	src: url('../../fonts/Exo20-Regular.eot'),
+		url('../../fonts/Exo20-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/Exo20-Regular.woff') format('woff'),
+		url('../../fonts/Exo20-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadProRegular';
+	src: url('../../fonts/MyriadProRegular.eot'),
+		url('../../fonts/MyriadProRegular.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/MyriadProRegular.woff') format('woff'),
+		url('../../fonts/MyriadProRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'ProximaNova';
+	src: url('../../fonts/ProximaNova-Black.eot'),
+		url('../../fonts/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/ProximaNova-Black.woff') format('woff'),
+		url('../../fonts/ProximaNova-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+} 
+
+@font-face {
+	font-family: 'ProximaNova';
+	src: url('../../fonts/ProximaNova-Bold.eot'),
+		url('../../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../../fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova';
+	src: url('../../fonts/ProximaNova-Light.eot'),
+		url('../../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/ProximaNova-Light.woff') format('woff'),
+		url('../../fonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;  
+}
+
+@font-face {
+	font-family: 'ProximaNova';
+	src: url('../../fonts/ProximaNova-Regular.eot'),
+		url('../../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../../fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-Regular.eot');
+    src: url('../../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../../fonts/Roboto-Regular.woff') format('woff'),
+        url('../../fonts/Roboto-Regular.ttf') format('truetype'),
+        url('../../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto-Bold.eot');
+    src: url('../../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../../fonts/Roboto-Bold.woff') format('woff'),
+        url('../../fonts/Roboto-Bold.ttf') format('truetype'),
+        url('../../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roddenberry CYRILLIC';
+  src: url('../../fonts/RoddenberryCYRILLIC.eot');
+  src: url('../../fonts/RoddenberryCYRILLIC.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/RoddenberryCYRILLIC.svg#RoddenberryCYRILLIC') format('svg'),
+       url('../../fonts/RoddenberryCYRILLIC.ttf') format('truetype'),
+       url('../../fonts/RoddenberryCYRILLIC.woff') format('woff'),
+       url('../../fonts/RoddenberryCYRILLIC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

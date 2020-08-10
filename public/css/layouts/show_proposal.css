@@ -1,0 +1,226 @@
+.callback__block{
+    margin-top: 0;
+}
+    
+.callback__block .your_choice p {
+  color: #3a7cd1;
+  font-family: "ProximaNova";
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 29.13px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.your_choice p, span {
+    font-family: 'ProximaNova';
+}
+
+.callback__block .your_choice .span {
+  color: #525251;
+  font-family: "ProximaNova";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.callback__block .your_choice .info_choice p {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.callback__block .info_choice {
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+
+.callback__block .info_choice p {
+  position: relative;
+  color: #000000;
+  font-family: "ProximaNova";
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 17px;
+  z-index: 100;
+}
+
+.callback__block .info_choice p span {
+  float: right;
+  margin-right: 20px;
+  color: #535353;
+  font-family: "ProximaNova";
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 1;
+  line-height: 1.4;
+}
+
+.callback__block .info_choice .g_v:before {
+  content: "";
+  position: absolute;
+  width: 109%;
+  height: 40px;
+  background: #f8f2e0;
+  z-index: -1;
+  top: -8px;
+  left: -9%;
+}
+
+.callback__block .info_choice .number_engine:before {
+  content: "";
+  position: absolute;
+  width: 109%;
+  height: 53px;
+  background: #f8f2e0;
+  z-index: -1;
+  top: -3px;
+  left: -9%;
+}
+
+.callback__block .info_choice .vin:before {
+    content: "";
+    position: absolute;
+    width: 109%;
+    height: 73px;
+    background: #fcfcfc;
+    z-index: -1;
+    top: -9px;
+    left: -9%;
+}
+
+.callback__block .info_choice .spare_parts:before {
+    content: "";
+    position: absolute;
+    width: 109%;
+    height: 63px;
+    background: #fcfcfc;
+    z-index: -1;
+    top: -17px;
+    left: -9%;
+}
+
+
+
+.callback__block .info_choice .info_choice_spare {
+     color: #535353;
+    font-family: "ProximaNova";
+    font-size: 15px;
+    font-weight: 400;
+    z-index: 100;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 22px;
+}
+
+.edit_proposal {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    padding: 10px 14px 7px 14px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    background: #f6bf00;
+    text-align: center;
+    line-height: 1.3;
+    max-width: 130px;
+    z-index: 20;
+    opacity: 0.7;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.edit_proposal:active{
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.edit_proposal:hover{
+    opacity: 1;
+}
+.edit_proposal a {
+  color: #000;
+}
+
+.del_proposal {
+    text-decoration: underline;
+    color: #000;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-family: "ProximaNova";
+    margin-left: 14px;
+    white-space: nowrap;
+    z-index: 100;
+}
+.btn_setting_proposal{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.del_proposal a {
+  color: #000;
+  margin-right: 18px;
+}
+
+.back {
+  margin-right: 14px;
+  float: right;
+}
+
+
+.back a {
+  opacity: 0.62;
+  color: #525251;
+  font-size: 30px;
+  font-weight: 400;
+  z-index: 10;
+}
+
+.your_choice{
+    z-index: 100;
+    position: relative;
+}
+
+.bg_choice:before{
+    content: "";
+    position: absolute;
+    background: #f9f9f9;
+    width: 102%;
+    height: 162px;
+    max-width: 102%;
+    top: 0;
+    left: -13px;
+}
+
+.block_fix_your_choice{
+    max-width: 250px;
+}
+
+@media screen and (max-width: 768px){
+    .back {
+        margin-left: 7px;
+        position: relative;
+        float: none;
+    }
+    
+    .back a {
+        position: absolute;
+    }
+    .your_choice{
+        margin-left: 50px;    
+    }
+    .block_fix_your_choice{
+        max-width: 100%;
+    }
+} 
+@media screen and (max-width: 1140px){
+    .del_proposal a,.edit_proposal a {
+        font-size: 14px;
+    }
+}

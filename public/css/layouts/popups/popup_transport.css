@@ -1,0 +1,12 @@
+.popup_transport .catalog_wrapper {
+    margin-bottom: 80px;
+}
+
+.popup_transport .catalog_head p {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 24px;
+    font-size: 24px;
+}

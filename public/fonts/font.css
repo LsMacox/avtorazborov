@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'RoddenberryCYRILLIC';
+  src: url('RoddenberryCYRILLIC.eot');
+  src: url('RoddenberryCYRILLIC.eot?#iefix') format('embedded-opentype'),
+       url('RoddenberryCYRILLIC.svg#RoddenberryCYRILLIC') format('svg'),
+       url('RoddenberryCYRILLIC.ttf') format('truetype'),
+       url('RoddenberryCYRILLIC.woff') format('woff'),
+       url('RoddenberryCYRILLIC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
