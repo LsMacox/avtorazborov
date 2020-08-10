@@ -15,13 +15,12 @@ class DebuggerLimit
      */
     public function handle($request, Closure $next)
     {
-//        if (in_array(auth()->id(), [1, 2, 3, 4])) {
-//            \Debugbar::enable();
-//        }
-//        else {
-//            \Debugbar::disable();
-//        }
-        \Debugbar::enable();
+        if (in_array(auth()->id(), [1, 2, 3, 4])) {
+            \Debugbar::enable();
+        }
+        else {
+            \Debugbar::disable();
+        }
 
         return $next($request);
     }
