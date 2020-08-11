@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
 
 
         # TransportCarMarks seeder
-        $this->call(TransportCarMarksTableSeeder::class);
+//        $this->call(TransportCarMarksTableSeeder::class);
         # TransportCarModels seeder
         $this->call(TransportCarModelsTableSeeder::class);
         # Role comes before User seeder here.

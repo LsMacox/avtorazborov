@@ -17,13 +17,13 @@ class TransportCarMarksTableSeeder extends Seeder
         $getMarks = file_get_contents(storage_path('app/json/marks.json'));
         $marks = json_decode($getMarks);
 
-        foreach($marks as $mark){
+        foreach($marks->transport_car_marks as $mark){
             $transport_car_mark = new TransportCarMark;
-            $transport_car_mark->title = $mark->transport_car_marks->title;
+            $transport_car_mark->title = $mark->title;
 
-            if ($mark->published) {
-                $transport_car_mark->logo = $mark->transport_car_marks->logo_src;
-                $transport_car_mark->published = $mark->transport_car_marks->popular;
+            if ($mark->popular) {
+                $transport_car_mark->logo = $mark->logo_src;
+                $transport_car_mark->published = $mark->popular;
             }
 
             $transport_car_mark->save();
