@@ -3,7 +3,7 @@
     {
       "id": "25",
       "title": "Audi",
-      "logo_src": "/cabinet/carLogos/audi.jpg",
+      "logo_src": "/carLogos/audi.jpg",
       "popular": "1",
       "created_at": "2019-06-10 08:49:55",
       "updated_at": "2019-06-10 08:49:55"
@@ -11,7 +11,7 @@
     {
       "id": "26",
       "title": "BMW",
-      "logo_src": "/cabinet/carLogos/bmw.jpg",
+      "logo_src": "/carLogos/bmw.jpg",
       "popular": "1",
       "created_at": "2019-06-10 08:50:16",
       "updated_at": "2019-06-10 08:50:16"
@@ -19,7 +19,7 @@
     {
       "id": "27",
       "title": "Chevrolet",
-      "logo_src": "/cabinet/carLogos/chevrolet.jpg",
+      "logo_src": "/carLogos/chevrolet.jpg",
       "popular": "1",
       "created_at": "2019-06-10 08:50:30",
       "updated_at": "2019-06-10 08:50:30"
@@ -27,7 +27,7 @@
     {
       "id": "28",
       "title": "Daewoo",
-      "logo_src": "/cabinet/carLogos/daewoo.jpg",
+      "logo_src": "/carLogos/daewoo.jpg",
       "popular": "1",
       "created_at": "2019-06-10 08:50:48",
       "updated_at": "2019-06-10 08:50:48"
@@ -35,7 +35,7 @@
     {
       "id": "29",
       "title": "Ford",
-      "logo_src": "/cabinet/carLogos/ford.jpg",
+      "logo_src": "/carLogos/ford.jpg",
       "popular": "1",
       "created_at": "2019-06-10 08:51:07",
       "updated_at": "2019-06-10 08:51:07"
@@ -43,7 +43,7 @@
     {
       "id": "30",
       "title": "Honda",
-      "logo_src": "/cabinet/carLogos/honda.jpg",
+      "logo_src": "/carLogos/honda.jpg",
       "popular": "1",
       "created_at": "2019-06-10 08:51:19",
       "updated_at": "2019-06-10 08:51:19"
@@ -51,7 +51,7 @@
     {
       "id": "31",
       "title": "Hyundai",
-      "logo_src": "/cabinet/carLogos/hyundai.jpg",
+      "logo_src": "/carLogos/hyundai.jpg",
       "popular": "1",
       "created_at": "2019-06-10 08:51:36",
       "updated_at": "2019-06-10 08:51:36"
@@ -435,7 +435,7 @@
     {
       "id": "81",
       "title": "Kia",
-      "logo_src": "/wp-content/uploads/2019/05/logo8.jpg",
+      "logo_src": "/carLogos/kia.jpg",
       "popular": "1",
       "created_at": "2019-06-18 03:21:38",
       "updated_at": "2019-06-18 03:21:38"
@@ -467,7 +467,7 @@
     {
       "id": "85",
       "title": "Land rover",
-      "logo_src": "/wp-content/uploads/2019/05/logo9.jpg",
+      "logo_src": "/carLogos/land rover.jpg",
       "popular": "1",
       "created_at": "2019-06-18 03:43:07",
       "updated_at": "2019-06-18 03:43:07"
@@ -475,7 +475,7 @@
     {
       "id": "86",
       "title": "Lexus",
-      "logo_src": "/wp-content/uploads/2019/05/logo10.jpg",
+      "logo_src": "/carLogos/lexus.jpg",
       "popular": "1",
       "created_at": "2019-06-18 03:45:51",
       "updated_at": "2019-06-18 03:45:51"
@@ -531,7 +531,7 @@
     {
       "id": "93",
       "title": "Mazda",
-      "logo_src": "/wp-content/uploads/2019/05/logo11.jpg",
+      "logo_src": "/carLogos/mazda.jpg",
       "popular": "1",
       "created_at": "2019-06-18 04:15:56",
       "updated_at": "2019-06-18 04:15:56"
@@ -547,7 +547,7 @@
     {
       "id": "95",
       "title": "Mercedes-Benz",
-      "logo_src": "/wp-content/uploads/2019/05/logo12.jpg",
+      "logo_src": "/carLogos/mercedes-benz.jpg",
       "popular": "1",
       "created_at": "2019-06-18 04:38:32",
       "updated_at": "2019-06-18 04:38:32"
@@ -571,7 +571,7 @@
     {
       "id": "98",
       "title": "Mitsubishi",
-      "logo_src": "/wp-content/uploads/2019/05/logo13.jpg",
+      "logo_src": "/carLogos/mitsubishi.jpg",
       "popular": "1",
       "created_at": "2019-06-18 04:51:31",
       "updated_at": "2019-06-18 04:51:31"
@@ -587,7 +587,7 @@
     {
       "id": "100",
       "title": "Nissan",
-      "logo_src": "/wp-content/uploads/2019/05/logo14.jpg",
+      "logo_src": "/carLogos/nissan.jpg",
       "popular": "1",
       "created_at": "2019-06-18 05:35:40",
       "updated_at": "2019-06-18 05:35:40"
@@ -603,7 +603,7 @@
     {
       "id": "102",
       "title": "Opel",
-      "logo_src": "/wp-content/uploads/2019/05/logo15.jpg",
+      "logo_src": "/carLogos/opel.jpg",
       "popular": "1",
       "created_at": "2019-06-18 06:24:08",
       "updated_at": "2019-06-18 06:24:08"
@@ -619,7 +619,7 @@
     {
       "id": "104",
       "title": "Peugeot",
-      "logo_src": "/wp-content/uploads/2019/05/logo16.jpg",
+      "logo_src": "/carLogos/peugeot.jpg",
       "popular": "1",
       "created_at": "2019-06-18 06:32:38",
       "updated_at": "2019-06-18 06:32:38"
@@ -667,7 +667,7 @@
     {
       "id": "110",
       "title": "Renault",
-      "logo_src": "/wp-content/uploads/2019/05/logo18.jpg",
+      "logo_src": "/carLogos/renault.jpg",
       "popular": "1",
       "created_at": "2019-06-18 07:08:52",
       "updated_at": "2019-06-18 07:08:52"
@@ -731,7 +731,7 @@
     {
       "id": "118",
       "title": "Skoda",
-      "logo_src": "/wp-content/uploads/2019/05/logo19.jpg",
+      "logo_src": "/carLogos/skoda.jpg",
       "popular": "1",
       "created_at": "2019-06-18 08:13:29",
       "updated_at": "2019-06-18 08:13:29"
@@ -755,7 +755,7 @@
     {
       "id": "121",
       "title": "Subaru",
-      "logo_src": "/wp-content/uploads/2019/05/logo20.jpg",
+      "logo_src": "/carLogos/subaru.jpg",
       "popular": "1",
       "created_at": "2019-06-18 08:24:41",
       "updated_at": "2019-06-18 08:24:41"
@@ -763,7 +763,7 @@
     {
       "id": "122",
       "title": "Suzuki",
-      "logo_src": "/wp-content/uploads/2019/05/logo21.jpg",
+      "logo_src": "/carLogos/suzuki.jpg",
       "popular": "1",
       "created_at": "2019-06-18 08:37:10",
       "updated_at": "2019-06-18 08:37:10"
@@ -787,7 +787,7 @@
     {
       "id": "125",
       "title": "Toyota",
-      "logo_src": "/wp-content/uploads/2019/05/logo22-1.jpg",
+      "logo_src": "/carLogos/toyota.jpg",
       "popular": "1",
       "created_at": "2019-06-18 09:01:11",
       "updated_at": "2019-06-18 09:01:11"
@@ -795,7 +795,7 @@
     {
       "id": "126",
       "title": "Volkswagen",
-      "logo_src": "/wp-content/uploads/2019/05/logo23-1.jpg",
+      "logo_src": "/carLogos/volkswagen.jpg",
       "popular": "1",
       "created_at": "2019-06-18 10:37:44",
       "updated_at": "2019-06-18 10:37:44"
@@ -803,7 +803,7 @@
     {
       "id": "127",
       "title": "Volvo",
-      "logo_src": "/wp-content/uploads/2019/05/logo24-1.jpg",
+      "logo_src": "/carLogos/volvo.jpg",
       "popular": "1",
       "created_at": "2019-06-19 04:45:03",
       "updated_at": "2019-06-19 04:45:03"
@@ -883,7 +883,7 @@
     {
       "id": "137",
       "title": "Лада",
-      "logo_src": "/wp-content/uploads/2019/05/logo25-1.jpg",
+      "logo_src": "/carLogos/Лада.jpg",
       "popular": "1",
       "created_at": "2019-06-19 05:14:18",
       "updated_at": "2019-06-19 05:14:18"
@@ -915,7 +915,7 @@
     {
       "id": "141",
       "title": "УАЗ",
-      "logo_src": "/wp-content/uploads/2019/05/logo26.jpg",
+      "logo_src": "/carLogos/УАЗ.jpg",
       "popular": "1",
       "created_at": "2019-06-19 05:50:57",
       "updated_at": "2019-06-19 05:50:57"
