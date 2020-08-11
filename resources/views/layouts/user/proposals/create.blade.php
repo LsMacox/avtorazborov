@@ -26,7 +26,7 @@
 	<div class="logos">
 		@foreach($marks as $mark)
 			<a href="#x" class="logo-mini">
-				<div class="img"><img src="{{asset($mark->logo)}}"></div>
+				<div class="img"><img src="{{asset('images'.$mark->logo)}}"></div>
 				<p>{{ucfirst($mark->title)}}</p>
 			</a>
 		@endforeach
